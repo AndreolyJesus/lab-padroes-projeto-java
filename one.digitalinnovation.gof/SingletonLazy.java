@@ -6,8 +6,8 @@ Singleton "preguiçoso"
  */
 public class SingletonLazy{
     private static SingletonLazy instacia;//<--controla sua propia instancia
-    private SingletonLazy{
-        super();
+    private SingletonLazy() {
+
     }
     public static SingletonLazy getInstacia () {
         if(instacia == null) {
